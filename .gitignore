@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+output
+data/*
+data_backup
+!data/dataset_info.json
+
+**.out
+
+.env
+.claude_save
+
+gpueater
+
+data.tar.gz
+output*
+
+backup/*
+
+**.png
+
+scripts/submit_task_batch_*.slurm
+scripts/submit_infer_task_batch_*.slurm
+
+temp/case_study
+uv.lock
+data
